@@ -1,7 +1,7 @@
 @extends('layouts.main')
 
 @section('content')
-<div class="bg-white self-center  shadow overflow-hidden sm:rounded-lg mt-20 w-2/3">
+<div class="bg-white self-center shadow overflow-hidden sm:rounded-lg mt-20 w-2/3">
   <div class="px-4 py-5 sm:px-6">
     <div class="row">
     @foreach ($notes as $note)

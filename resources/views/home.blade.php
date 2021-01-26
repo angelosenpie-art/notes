@@ -1,10 +1,8 @@
 @extends('layouts.main')
 
 @section('content')
-    <div class="flex justify-center">
-        <div class="w-4/12 bg-white p-6 rounded-lg">
-            Home
-        </div>
-        
-    </div>
+      <h1 class="text-4xl mt-10 tracking-tight font-extrabold text-gray-900 sm:text-5xl md:text-6xl">
+        <span class="block xl:inline">Make Life Easy Using</span>
+        <span class="block text-indigo-600 xl:inline">Note</span>
+      </h1>
 @endsection

@@ -41,6 +41,11 @@ class NoteController extends Controller
      */
     public function store(Request $request)
     {
+        $this->validate($request, [
+          'title' => 'required|max:255',
+          'description' => 'required|max:255',
+        ]);
+
         $note = Note::create([
             'title' => $request->title,
             'description' => $request->description,
